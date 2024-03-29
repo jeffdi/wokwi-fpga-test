@@ -1,7 +1,7 @@
 --- 
 # Tiny Tapeout project information
 project:
-  wokwi_id:    382012900957395969        # If using wokwi, set this to your project's ID
+  wokwi_id:    393702743752071169        # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -21,19 +21,19 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "Your name here"                 # Your name
-  title:        "Wokwi FPGA bitstream"           # Project title
+  author:       "Jeff"                 # Your name
+  title:        "fpga test"           # Project title
   language:     "Wokwi"                          # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "The project generates an FPGA bitstream for a Wokwi based Tiny Tapeout design."      # Short description of what your project does
+  description:  "Simple design."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Explain how your project works
+      Just a test
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      Explain how to test your project
-
+      Flip some switches.
+      
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
     - none
